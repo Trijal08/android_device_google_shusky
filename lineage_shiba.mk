@@ -17,7 +17,7 @@ include device/google/shusky/shiba/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8
-PRODUCT_NAME := orion_shiba
+PRODUCT_NAME := lineage_shiba
 
 # UDFPS support 
 TARGET_HAS_UDFPS := true
