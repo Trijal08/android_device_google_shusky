@@ -22,6 +22,9 @@ PRODUCT_NAME := cherish_husky
 # UDFPS support 
 TARGET_HAS_UDFPS := true
 
+# FOD animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
@@ -75,7 +78,7 @@ TARGET_GOOGLE_CAMERA_LARGE_RAM := true
 TARGET_PIXEL_EXPERIENCE_2023 := true
 
 # GMS
-WITH_GMS := false
+WITH_GMS := true
 
 # CherishOS Flags
 CHERISH_BUILD_TYPE := "UNOFFICIAL"
