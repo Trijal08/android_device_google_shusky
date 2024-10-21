@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common Superior stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/shusky/aosp_shiba.mk)
@@ -17,7 +17,7 @@ include device/google/shusky/shiba/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8
-PRODUCT_NAME := orion_shiba
+PRODUCT_NAME := superior_shiba
 
 # UDFPS support 
 TARGET_HAS_UDFPS := true
@@ -75,16 +75,11 @@ TARGET_GOOGLE_CAMERA_LARGE_RAM := true
 TARGET_PIXEL_EXPERIENCE_2023 := true
 
 # GMS
-WITH_GMS := false
+WITH_GMS := true
+TARGET_GAPPS_ARCH := arm64
 
-# Orion OS Flags
+# SuperiorOS Flags
 ORION_MAINTAINER="GamerBoy1234294"
-ORION_MAINTAINER_LINK := "https://t.me/GamerBoy1234294"
-ORION_BUILD_TYPE := UNOFFICIAL
-ORION_GAPPS := false
-BUILD_GOOGLE_CONTACTS := true
-BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
