@@ -32,7 +32,7 @@ $(call inherit-product, vendor/bcr/bcr.mk)
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Face Unlock
-$(call inherit-product, vendor/google/faceunlock/device.mk)
+#$(call inherit-product, vendor/google/faceunlock/device.mk)
 
 # PowerShare
 $(call inherit-product, hardware/google/pixel/powershare/device.mk)
@@ -41,7 +41,7 @@ $(call inherit-product, hardware/google/pixel/powershare/device.mk)
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
 # Pixel Framework
-$(call inherit-product, vendor/pixel-framework/config.mk)
+#$(call inherit-product, vendor/pixel-framework/config.mk)
 
 # Signed Build
 -include vendor/lineage-priv/keys/keys.mk
