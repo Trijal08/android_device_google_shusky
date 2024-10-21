@@ -33,4 +33,10 @@
     <dimen name="udfps_lottie_translate_y">16776716.000000dp</dimen> 
     <dimen name="face_enroll_intro_illustration_margin_bottom">16777201.000000dp</dimen> 
     <dimen name="face_preview_scale">0.75</dimen>
+
+    <!-- Battery health -->
+    <bool name="config_supportBatteryHealth">true</bool>
+    <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/bms/charge_full</string>
+    <string name="config_batteryDesignCapacity">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batteryChargeCycles">/sys/class/power_supply/bms/cycle_count</string>
 </resources>
