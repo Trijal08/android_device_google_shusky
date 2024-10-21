@@ -17,7 +17,7 @@
 # Restrict the visibility of Android.bp files to improve build analysis time
 $(call inherit-product-if-exists, vendor/google/products/sources_pixel.mk)
 
-RELEASE_KERNEL_HUSKY_DIR := device/google/shusky-kernels/24Q3-12065098
+RELEASE_KERNEL_HUSKY_DIR := device/google/shusky-kernels/5.15/24Q3-12065098
 
 TARGET_LINUX_KERNEL_VERSION := $(RELEASE_KERNEL_HUSKY_VERSION)
 # Keeps flexibility for kasan and ufs builds
