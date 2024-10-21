@@ -33,4 +33,12 @@
     <dimen name="udfps_lottie_translate_y">16776716.000000dp</dimen> 
     <dimen name="face_enroll_intro_illustration_margin_bottom">16777201.000000dp</dimen> 
     <dimen name="face_preview_scale">0.75</dimen>
+
+    <!-- Batery Health -->
+    <string name="config_sysCPUTemp"></string>
+    <string name="config_sysBatteryTemp"></string>
+    <string name="config_sysGPUFreq"></string>
+    <string name="config_sysGPULoad"></string>
+    <integer name="config_sysCPUTempMultiplier"></integer>
+    <integer name="config_sysBatteryTempMultiplier"></integer>
 </resources>
