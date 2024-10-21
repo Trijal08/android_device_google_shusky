@@ -22,6 +22,9 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8
 PRODUCT_NAME := statix_$(DEVICE_CODENAME)
 
+# Include Pixel Launcher
+INCLUDE_PIXEL_LAUNCHER := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
